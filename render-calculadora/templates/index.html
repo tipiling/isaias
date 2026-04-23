@@ -1,0 +1,15 @@
+<form method="POST">
+    <input type="number" name="num1" required>
+    <input type="number" name="num2" required>
+
+    <select name="op">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+
+    <button type="submit">Calcular</button>
+</form>
+
+<h2>Resultado: {{ result }}</h2>
